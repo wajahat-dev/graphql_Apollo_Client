@@ -1,0 +1,13 @@
+.quaketile{
+    background-color: beige;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.quake{
+    background-color: lightblue;
+    color: black;
+    border: 2px solid black;
+}
