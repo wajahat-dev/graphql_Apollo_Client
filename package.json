@@ -43,5 +43,6 @@
   },
   "devDependencies": {
     "concurrently": "^6.1.0"
-  }
+  },
+  "proxy": "https://apollo-server-api-graphql.herokuapp.com/"
 }

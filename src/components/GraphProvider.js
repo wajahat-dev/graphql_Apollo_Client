@@ -4,7 +4,8 @@ import {typeDefs, resolvers} from '../schema'
 
 const cache = new InMemoryCache()
 const link = new HttpLink({
-  uri: "http://localhost:4000",
+  // uri: "http://localhost:4000",
+  uri: "https://apollo-server-api-graphql.herokuapp.com/",
   headers:{
     authorization: localStorage.getItem('token')
   },
